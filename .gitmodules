@@ -1,3 +1,6 @@
 [submodule "mini-mvvm"]
 	path = mini-mvvm
 	url = git@github.com:yuanyazhen/mini-mvvm.git
+[submodule "DOM-diff"]
+	path = DOM-diff
+	url = git@github.com:yuanyazhen/DOM-diff.git
