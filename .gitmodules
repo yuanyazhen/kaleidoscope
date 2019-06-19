@@ -1,0 +1,3 @@
+[submodule "mini-mvvm"]
+	path = mini-mvvm
+	url = git@github.com:yuanyazhen/mini-mvvm.git
