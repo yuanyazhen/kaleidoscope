@@ -15,7 +15,7 @@
 > http://algorithm.books.mafengshe.com/answer/6.html  
 
   <img src="assets/6-1.png" />
-  
+
   ```bash
   i 行遍历
   j V 组遍历
@@ -26,8 +26,8 @@
     j=1;
     第一个数：push s[1];
     第二个斜方向数：(j-1)+(size-1)
-      位置:（size-1）
-      分组的起始下标：(j-1)
+      位置:（size-1）7
+      分组的起始下标：(j-1) 0
     第三个数：push s[9]
   3. 当 i;
     j=i;
