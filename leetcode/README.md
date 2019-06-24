@@ -6,11 +6,11 @@
 - 2019-06-21: [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/submissions/)
 - 补：2019-06-22 [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 - 补：2019-06-23 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
-- 2019-06-24 []()
-
-> 1. http://algorithm.books.mafengshe.com/answer/6.html
+- 2019-06-24 [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
 ## 解释
+
+> 1. http://algorithm.books.mafengshe.com/answer/6.html
 
 待补充 3，5
 
@@ -42,5 +42,9 @@
     j+size 循环
   ```
 ### 11. Container With Most Water
-动画：https://leetcode.com/problems/container-with-most-water/solution/
+> tip: 
+ 一般思路：双层循环搞定  
+ O(1)思路：两个指示器，两边比较进行 .
+   
+https://leetcode.com/problems/container-with-most-water/solution/
 
