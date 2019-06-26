@@ -7,7 +7,7 @@
 - 补：2019-06-22 [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 - 补：2019-06-23 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 - 2019-06-24 [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-- 2019-06-15 [15. 3Sum](https://leetcode.com/problems/3sum/)
+- 2019-06-25 [15. 3Sum](https://leetcode.com/problems/3sum/)
 
 ## 解释
 
