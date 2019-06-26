@@ -2,11 +2,11 @@
 
 至少每天一道难度中上算法题，come on.
 
-- 2019-06-20: [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-- 2019-06-21: [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/submissions/)
+- 2019-06-20: [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) 【优化】
+- 2019-06-21: [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/submissions/) 【优化】
 - 补：2019-06-22 [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 - 补：2019-06-23 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
-- 2019-06-24 [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- 2019-06-24 [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) 【优化】
 - 2019-06-25 [15. 3Sum](https://leetcode.com/problems/3sum/)
 
 ## 解释

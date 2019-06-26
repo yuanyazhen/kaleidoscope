@@ -54,5 +54,42 @@ var threeSum_1 = function (nums) {
   return [...res].map(item => item.split(','));
 };
 
-const res = threeSum_1([-1,0,1,2,-1,-4]);
+/**
+ * 优化点：过滤重复
+ * Runtime: 152 ms
+ * Memory Usage: 47.2 MB
+ * 。。。快了一半
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
+var threeSum_2 = function (nums) {
+  const res = [];
+  const len = nums.length;
+  nums = nums.sort((a, b) => a - b);
+
+  // p,q,r 三个指针
+  let p = 0, q = 1, r = len - 1;
+  for (p; p < len - 2; ++p) {
+    // 优化点 1
+    if (p > 0 && nums[p] === nums[p - 1]) continue;
+
+    q = p + 1;
+    r = len - 1;
+    while (q < r) {
+      const temp = nums[p] + nums[q] + nums[r];
+      if (temp > 0) r--;
+      if (temp < 0) q++;
+      if (temp === 0) {
+        res.push([nums[p], nums[q++], nums[r--]]);
+        // 优化点 2
+        while (q < r && nums[q] == nums[q - 1]) q++;
+        while (q < r && nums[r] === nums[r + 1]) r--;
+      }
+    }
+    if (p === r && nums[p] + nums[q] + nums[r] > 0) break;
+  }
+  return res;
+};
+
+const res = threeSum_2([-1, 0, 1, 2, -1, -4]);
 console.log(res)
