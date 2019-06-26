@@ -68,25 +68,24 @@ var threeSum_2 = function (nums) {
   nums = nums.sort((a, b) => a - b);
 
   // p,q,r 三个指针
-  let p = 0, q = 1, r = len - 1;
+  let p = 0, left = 1, right = len - 1;
   for (p; p < len - 2; ++p) {
     // 优化点 1
     if (p > 0 && nums[p] === nums[p - 1]) continue;
 
-    q = p + 1;
-    r = len - 1;
-    while (q < r) {
-      const temp = nums[p] + nums[q] + nums[r];
-      if (temp > 0) r--;
-      if (temp < 0) q++;
+    left = p + 1;
+    right = len - 1;
+    while (left < right) {
+      const temp = nums[p] + nums[left] + nums[right];
+      if (temp > 0) right--;
+      if (temp < 0) left++;
       if (temp === 0) {
-        res.push([nums[p], nums[q++], nums[r--]]);
+        res.push([nums[p], nums[left++], nums[right--]]);
         // 优化点 2
-        while (q < r && nums[q] == nums[q - 1]) q++;
-        while (q < r && nums[r] === nums[r + 1]) r--;
+        while (left < right && nums[left] == nums[left - 1]) left++;
+        while (left < right && nums[right] === nums[right + 1]) right--;
       }
     }
-    if (p === r && nums[p] + nums[q] + nums[r] > 0) break;
   }
   return res;
 };
