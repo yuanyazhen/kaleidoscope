@@ -84,24 +84,23 @@ var removeNthFromEnd_1 = function (head, n) {
  * }
  */
 /**
- * 最优解：两个指针前后相差 n
+ * 优解：两个指针前后相差 n
  * @param {ListNode} head
  * @param {number} n
  * @return {ListNode}
  */
-var removeNthFromEnd_2 = function (head, n) {
-  let p = q = null;
-  p.next = q.next = head;
-
-  let i = 0;
-  while(p.next) {
-    i++;
-    p=p.next;
-    if(i > n) {
-      q = q.next;
-    }
+var removeNthFromEnd = function (head, n) {
+  let dummy = new ListNode (0);
+  dummy.next = head;
+  let first = dummy;
+  let second = dummy;
+  for (let i = 1; i <= n + 1; i++) {
+    first = first.next;
   }
-  q = q.next.next;
-
-  return head;
+  while (first != null) {
+    first = first.next;
+    second = second.next;
+  }
+  second.next = second.next.next;
+  return dummy.next;
 };
