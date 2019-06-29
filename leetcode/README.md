@@ -13,7 +13,7 @@
 - 2019-06-28
   - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/)
   - e
-- 2019-06-29
+- 2019-06-29 [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
 
 ## 解释
 
