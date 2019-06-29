@@ -1,7 +1,15 @@
 # kaleidoscope 🙇‍
 🤗🦑😋👨‍💻🐞🌸🐍 🦎 🦖
 
-> 在一个独具慧眼的人看来，人生最壮丽的场景莫过于智慧与那欲超越他的现实之间持续不断的较量。
+```
+Coding makes me calm. 
+Coding makes me calm. 
+Coding makes me calm. 
+Coding makes me calm. 
+Coding makes me calm.
+```
+
+> 在一个独具慧眼的人看来，人生最壮丽的场景莫过于智慧与那欲超越他的现实之间持续不断的较量。  
 
 ## What?
 这个仓库是在学习总结过程中的一个汇总，主要是自己回顾之用。
