@@ -17,6 +17,7 @@
 - 2019-06-30 [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 
 - 2019-07-01 [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+- 2019-07-02 [46. Permutations](https://leetcode.com/problems/permutations/)
 
 ## 解释
 
