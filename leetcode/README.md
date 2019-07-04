@@ -21,6 +21,8 @@
 
 ## 解释
 
+https://leetcode.com/problems/container-with-most-water/solution/
+
 > 1. http://algorithm.books.mafengshe.com/answer/6.html
 
 待补充 3，5
@@ -56,6 +58,7 @@
 > tip: 
  一般思路：双层循环搞定  
  O(1)思路：两个指示器，两边比较进行 .
-   
-https://leetcode.com/problems/container-with-most-water/solution/
 
+
+### 46.Permutations  
+<img src="assets/NewPermutation.gif" />
