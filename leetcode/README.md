@@ -30,7 +30,8 @@ https://leetcode.com/problems/container-with-most-water/solution/
 ### 6. ZigZag Conversion
 > http://algorithm.books.mafengshe.com/answer/6.html  
 
-  <img src="assets/6-1.png" />
+  <!-- <img src="assets/6-1.png" /> -->
+  ![](https://i.loli.net/2019/07/04/5d1dd356999bd75264.png)
 
   ```bash
   i 行遍历
@@ -61,4 +62,4 @@ https://leetcode.com/problems/container-with-most-water/solution/
 
 
 ### 46.Permutations  
-<img src="assets/NewPermutation.gif" />
+![dsp递归回溯](https://i.loli.net/2019/07/04/5d1dd2df8584550135.gif)
