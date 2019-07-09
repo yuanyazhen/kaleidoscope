@@ -19,6 +19,8 @@
 - 2019-07-01 [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 - 2019-07-02 [46. Permutations](https://leetcode.com/problems/permutations/)
 
+- 2019-07-09 [31. Next Permutation.js](https://leetcode.com/problems/next-permutation/submissions/)【优化】
+
 ## 解释
 
 https://leetcode.com/problems/container-with-most-water/solution/
