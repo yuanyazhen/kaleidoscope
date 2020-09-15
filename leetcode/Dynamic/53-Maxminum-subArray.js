@@ -1,4 +1,5 @@
 /**
+ * 最大子数列问题
  * 贪心法
  * @param {number[]} nums
  * @return {number}

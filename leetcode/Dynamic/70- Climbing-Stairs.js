@@ -1,4 +1,5 @@
 /**
+ * 爬楼梯
  * @param {number} n
  * @return {number}
  */
